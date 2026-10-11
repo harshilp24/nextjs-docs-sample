@@ -55,7 +55,7 @@ li { margin: 4px 0; }
 .code pre { margin: 0; padding: 16px; overflow-x: auto; }
 .code pre code { background: none; border: 0; padding: 0; color: var(--code-fg); font-size: 14px; line-height: 1.6; }
 
-.callout { margin: 20px 0; padding: 12px 16px; border-radius: 8px; border-left: 3px solid var(--c); background: color-mix(in srgb, var(--c) 9%, transparent); }
+.callout { margin: 20px 0; padding: 12px 16px; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--c) 30%, transparent); background: color-mix(in srgb, var(--c) 7%, transparent); }
 .callout strong { text-transform: capitalize; color: var(--c); font-size: 14px; }
 .callout p { margin: 2px 0 0; }
 .callout.note { --c: var(--note); } .callout.tip { --c: var(--tip); } .callout.warning { --c: var(--warning); }
